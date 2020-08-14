@@ -1,0 +1,10 @@
+name: epanet-wdns
+dependencies:
+- python
+- pip
+- numpy
+- jupyter
+- scikit-learn
+- pandas
+- pip:
+    - epynet
