@@ -7,9 +7,9 @@ There are some auxiliary (conversion, snooping, etc.) scripts in the *notebook* 
 After that, you have to activate the `epanet-wdns` environment and run a Jupyter Notebook server on your machine.
 
 ### Water distribution networks
-|Name|Filename|Origin|Suppl. data|nodes|pipes|pumps|valves|tanks|reservoirs|
-|---|---|---|---|---|---|---|---|---|---|
-|Richmond|Richmond_standard|[link](https://emps.exeter.ac.uk/media/universityofexeter/emps/research/cws/downloads/Richmond_standard.inp)|[link](https://emps.exeter.ac.uk/engineering/research/cws/resources/benchmarks/operation/richmond.php)|872|949|7|1|6|1|
-|Anytown|anytown|[link](https://emps.exeter.ac.uk/media/universityofexeter/emps/research/cws/downloads/anytown.inp)|[link](https://emps.exeter.ac.uk/engineering/research/cws/resources/benchmarks/expansion/anytown.php)|22|41|3|0|2|1|
-|D-Town|d-town|[link](https://emps.exeter.ac.uk/media/universityofexeter/emps/research/cws/downloads/d-town.inp)|[link](https://emps.exeter.ac.uk/engineering/research/cws/resources/benchmarks/expansion/d-town.php)|407|443|11|5|7|1|
-|Rome|Rome|[link](https://web01-c815.uibk.ac.at/DynaVIBe-Web//projectdl/b34b6d60-ff22-4b47-9fdf-c8615eba413b.zip?_=1597411471818)|[link](https://web01-c815.uibk.ac.at/index.php/8-web-applications/3-dynavibe-web)|150634|157044|0|0|0|4|
+|Filename|Origin|Suppl. data|nodes|pipes|pumps|valves|tanks|reservoirs|
+|---|---|---|---|---|---|---|---|---|
+|Richmond_standard|[link](https://emps.exeter.ac.uk/media/universityofexeter/emps/research/cws/downloads/Richmond_standard.inp)|[link](https://emps.exeter.ac.uk/engineering/research/cws/resources/benchmarks/operation/richmond.php)|872|949|7|1|6|1|
+|anytown|[link](https://emps.exeter.ac.uk/media/universityofexeter/emps/research/cws/downloads/anytown.inp)|[link](https://emps.exeter.ac.uk/engineering/research/cws/resources/benchmarks/expansion/anytown.php)|22|41|3|0|2|1|
+|d-town|[link](https://emps.exeter.ac.uk/media/universityofexeter/emps/research/cws/downloads/d-town.inp)|[link](https://emps.exeter.ac.uk/engineering/research/cws/resources/benchmarks/expansion/d-town.php)|407|443|11|5|7|1|
+|Rome|[link](https://web01-c815.uibk.ac.at/DynaVIBe-Web//projectdl/b34b6d60-ff22-4b47-9fdf-c8615eba413b.zip?_=1597411471818)|[link](https://web01-c815.uibk.ac.at/index.php/8-web-applications/3-dynavibe-web)|150634|157044|0|0|0|4|
