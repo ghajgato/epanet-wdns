@@ -9,4 +9,5 @@ After that, you have to activate the `epanet-wdns` environment and run a Jupyter
 ### Water distribution networks
 |Name|Origin|Suppl. data|nodes|pipes|pumps|valves|tanks|reservoirs|
 |---|---|---|---|---|---|---|---|---|
-|Richmond|[link](https://emps.exeter.ac.uk/media/universityofexeter/emps/research/cws/downloads/Richmond_standard.inp)|[link](https://emps.exeter.ac.uk/engineering/research/cws/resources/benchmarks/operation/richmond.php)|872|949|7|1|6|1|
+|Richmond_standard|[link](https://emps.exeter.ac.uk/media/universityofexeter/emps/research/cws/downloads/Richmond_standard.inp)|[link](https://emps.exeter.ac.uk/engineering/research/cws/resources/benchmarks/operation/richmond.php)|872|949|7|1|6|1|
+|anytown|[link](https://emps.exeter.ac.uk/media/universityofexeter/emps/research/cws/downloads/anytown.inp)|[link](https://emps.exeter.ac.uk/engineering/research/cws/resources/benchmarks/expansion/anytown.php)|22|41|3|0|2|1|
