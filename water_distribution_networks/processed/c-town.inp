@@ -840,17 +840,17 @@
 
 [PUMPS]
 ;ID              	Node1           	Node2           	Parameters
- PU1g1             	J285            	J273            	HEAD H8	;
- PU2g1             	J280            	J269            	HEAD H8	;
- PU3g1             	J276            	J274            	HEAD H8	;
- PU4g2             	J299            	J292            	HEAD H9	;
- PU5g2             	J300            	J256            	HEAD H9	;
- PU6g3             	J289            	J415            	HEAD H10	;
- PU7g3             	J290            	J291            	HEAD H10	;
- PU8g4             	J301            	J304            	HEAD H9	;
- PU9g4             	J302            	J306            	HEAD H9	;
- PU10g5            	J307            	J317            	HEAD H11	;
- PU11g5            	J309            	J323            	HEAD H11	;
+ PU1g1           	J285            	J273            	HEAD H8	;
+ PU2g1           	J280            	J269            	HEAD H8	;
+ PU3g1           	J276            	J274            	HEAD H8	;
+ PU4g2           	J299            	J292            	HEAD H9	;
+ PU5g2           	J300            	J256            	HEAD H9	;
+ PU6g3           	J289            	J415            	HEAD H10	;
+ PU7g3           	J290            	J291            	HEAD H10	;
+ PU8g4           	J301            	J304            	HEAD H9	;
+ PU9g4           	J302            	J306            	HEAD H9	;
+ PU10g5          	J307            	J317            	HEAD H11	;
+ PU11g5          	J309            	J323            	HEAD H11	;
 
 [VALVES]
 ;ID              	Node1           	Node2           	Diameter    	Type	Setting     	MinorLoss   
@@ -866,16 +866,7 @@
 
 [STATUS]
 ;ID              	Status/Setting
- PU1g1             	Open
- PU3g1             	Closed
- PU4g2             	Open
- PU5g2             	Open
- PU6g3             	Open
- PU7g3             	Open
- PU8g4             	Open
- PU9g4             	Open
- PU10g5            	Open
- PU11g5            	Open
+ PU3g1           	Closed
  V2              	Open
 
 [PATTERNS]
@@ -1028,38 +1019,38 @@
 
 [CURVES]
 ;ID              	X-Value     	Y-Value
-;PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP:  
+;PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP:  
  6               	16.88889    	156.7       
  6               	19.5        	146.5       
  6               	22.13889    	136.2       
  6               	25.94445    	117.9       
  6               	33.33334    	50          
-;PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP:  
+;PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP:  
  7               	18.25       	75          
  7               	23.38889    	64          
  7               	30.63889    	46          
  7               	38.88889    	0           
-;PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP:  
+;PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP:  
  4               	30.12222    	221.76      
  4               	37.63612    	202.41      
  4               	43.73056    	182.16      
  4               	47.22223    	160         
-;PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP:  
+;PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP:  
  5               	31.91389    	217.27      
  5               	37.87778    	201.91      
  5               	42.55278    	187.15      
  5               	50          	140         
-;PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP:  
+;PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP:  
  2               	9.888889    	72.2        
  2               	12.52778    	62.3        
  2               	13.33333    	57.9        
  2               	18.05556    	0           
-;PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP:  
+;PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP:  
  3               	11.30278    	76.59       
  3               	12.65833    	68.19       
  3               	14.03056    	60.29       
  3               	18.05556    	0           
-;PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP:  
+;PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP: PUMP:  
  1               	3.997222    	64.86       
  1               	41.90556    	48.48       
  1               	56.13611    	43.96       
@@ -1067,62 +1058,70 @@
  1               	77.29445    	34.53       
  1               	97.66111    	28.83       
  1               	138.8889    	1           
-;PUMP: 
+;PUMP: PUMP: 
  8               	0           	70          
  8               	60          	50          
  8               	100         	30          
-;PUMP: 
+;PUMP: PUMP: 
  9               	0           	90          
  9               	30          	70          
  9               	50          	30          
-;PUMP: 
+;PUMP: PUMP: 
  10              	0           	120         
  10              	30          	110         
  10              	70          	30          
-;PUMP: 
+;PUMP: PUMP: 
  11              	0           	90          
  11              	30          	50          
  11              	40          	10          
- H8                                    0.0000      70.0000
- H8                                   90.0000      63.1250
- H8                                  180.0000      54.1667
- H8                                  270.0000      43.1250
- H8                                  360.0000      30.0000
- H9                                    0.0000      90.0000
- H9                                   45.0000      87.5000
- H9                                   90.0000      76.6667
- H9                                  135.0000      57.5000
- H9                                  180.0000      30.0000
- H10                                   0.0000     120.0000
- H10                                  63.0000     115.3750
- H10                                 126.0000     104.1667
- H10                                 189.0000      74.3750
- H10                                 252.0000      30.0000
- H11                                   0.0000      90.0000
- H11                                  36.0000      89.0000
- H11                                  72.0000      76.6667
- H11                                 108.0000      50.0000
- H11                                 144.0000      10.0000
- E8                                    0.0000       0.
- E8                                   90.00000       .57
- E8                                  180.00000       .83
- E8                                  270.0000        .80
- E8                                  360.0000        .48
- E9                                    0.0000       0.00
- E9                                   45.0000        .44
- E9                                   90.0000        .65
- E9                                  135.0000        .62
- E9                                  180.0000        .37
- E10                                   0.0000       0.00
- E10                                  63.0000        .44
- E10                                 126.0000        .65
- E10                                 189.0000        .62
- E10                                 252.0000        .37
- E11                                   0.0000       0.00
- E11                                  36.0000        .35
- E11                                  72.0000        .53
- E11                                 108.0000        .53
- E11                                 144.0000        .37
+;PUMP: 
+ H8              	0.0000      	70.0000     
+ H8              	90.0000     	63.1250     
+ H8              	180.0000    	54.1667     
+ H8              	270.0000    	43.1250     
+ H8              	360.0000    	30.0000     
+;PUMP: 
+ H9              	0.0000      	90.0000     
+ H9              	45.0000     	87.5000     
+ H9              	90.0000     	76.6667     
+ H9              	135.0000    	57.5000     
+ H9              	180.0000    	30.0000     
+;PUMP: 
+ H10             	0.0000      	120.0000    
+ H10             	63.0000     	115.3750    
+ H10             	126.0000    	104.1667    
+ H10             	189.0000    	74.3750     
+ H10             	252.0000    	30.0000     
+;PUMP: 
+ H11             	0.0000      	90.0000     
+ H11             	36.0000     	89.0000     
+ H11             	72.0000     	76.6667     
+ H11             	108.0000    	50.0000     
+ H11             	144.0000    	10.0000     
+;PUMP: 
+ E8              	0.0000      	0.          
+ E8              	90.00000    	.57         
+ E8              	180.00000   	.83         
+ E8              	270.0000    	.80         
+ E8              	360.0000    	.48         
+;PUMP: 
+ E9              	0.0000      	0.00        
+ E9              	45.0000     	.44         
+ E9              	90.0000     	.65         
+ E9              	135.0000    	.62         
+ E9              	180.0000    	.37         
+;PUMP: 
+ E10             	0.0000      	0.00        
+ E10             	63.0000     	.44         
+ E10             	126.0000    	.65         
+ E10             	189.0000    	.62         
+ E10             	252.0000    	.37         
+;PUMP: 
+ E11             	0.0000      	0.00        
+ E11             	36.0000     	.35         
+ E11             	72.0000     	.53         
+ E11             	108.0000    	.53         
+ E11             	144.0000    	.37         
 
 [CONTROLS]
 ; ----------- Tank 1 ---------------
@@ -1169,7 +1168,9 @@
 
 
 
+
 [RULES]
+
 
 
 
@@ -1189,17 +1190,17 @@
  Global Efficiency  	70.0000
  Global Price       	0
  Demand Charge      	0.0000
- Pump 	PU1g1             	Price     	1.0000
- Pump 	PU2g1             	Price     	1.0000
- Pump 	PU3g1             	Price     	1.0000
- Pump 	PU4g2             	Price     	1.0000
- Pump 	PU5g2             	Price     	1.0000
- Pump 	PU6g3             	Price     	1.0000
- Pump 	PU7g3             	Price     	1.0000
- Pump 	PU8g4             	Price     	1.0000
- Pump 	PU9g4             	Price     	1.0000
- Pump 	PU10g5            	Price     	1.0000
- Pump 	PU11g5            	Price     	1.0000
+ Pump 	PU1g1           	Price     	1.0000
+ Pump 	PU2g1           	Price     	1.0000
+ Pump 	PU3g1           	Price     	1.0000
+ Pump 	PU4g2           	Price     	1.0000
+ Pump 	PU5g2           	Price     	1.0000
+ Pump 	PU6g3           	Price     	1.0000
+ Pump 	PU7g3           	Price     	1.0000
+ Pump 	PU8g4           	Price     	1.0000
+ Pump 	PU9g4           	Price     	1.0000
+ Pump 	PU10g5          	Price     	1.0000
+ Pump 	PU11g5          	Price     	1.0000
 
 [EMITTERS]
 ;Junction        	Coefficient
@@ -1227,7 +1228,7 @@
 ;Tank            	Model
 
 [TIMES]
- Duration           	24
+ Duration           	24:00 
  Hydraulic Timestep 	0:05 
  Quality Timestep   	0:05 
  Pattern Timestep   	1:00 
@@ -1651,13 +1652,13 @@
  J317            	-247023.62      	149361.74       
  J323            	-247170.91      	149409.25       
  R1              	-245840.56      	147793.83       
- T3              	-246422.40      	148459.51       
  T1              	-249114.17      	149950.90       
- T7              	-247541.51      	149418.76       
- T6              	-247033.12      	149124.18       
- T5              	-247570.01      	150863.14       
  T2              	-246845.71      	148674.23       
+ T3              	-246422.40      	148459.51       
  T4              	-246160.35      	150738.12       
+ T5              	-247570.01      	150863.14       
+ T6              	-247033.12      	149124.18       
+ T7              	-247541.51      	149418.76       
 
 [VERTICES]
 ;Link            	X-Coord         	Y-Coord
@@ -1686,4 +1687,3 @@
  OFFSET         	0.00            	0.00            
 
 [END]
-
