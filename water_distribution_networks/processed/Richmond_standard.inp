@@ -1838,13 +1838,13 @@ with this network, or email Kobus van Zyl at kobusvanzyl@mail.com
 
 [PUMPS]
 ;ID                 Node1               Node2               Parameters
- 1Ag1               2009                2002                HEAD 2007   ;
- 2Ag1               1690                1693                HEAD 2015   ;
- 3Ag2               1005                186                 HEAD 1006   ;
- 4Bg3               1250                353                 HEAD 1881   ;
- 5Cg4               1648                636                 HEAD 1884   ;
- 6Dg5               264                 1125                HEAD 1123   ;
- 7Fg6               1815                749                 HEAD 1883   ;
+ 1Ag1               2009                2002                HEAD H1   ;
+ 2Ag1               1690                1693                HEAD H2   ;
+ 3Ag2               1005                186                 HEAD H3   ;
+ 4Bg3               1250                353                 HEAD H4   ;
+ 5Cg4               1648                636                 HEAD H5   ;
+ 6Dg5               264                 1125                HEAD H6   ;
+ 7Fg6               1815                749                 HEAD H7   ;
 
 [VALVES]
 ;ID                 Node1               Node2               Diameter        Type    Setting         MinorLoss   
@@ -2857,21 +2857,21 @@ with this network, or email Kobus van Zyl at kobusvanzyl@mail.com
 [CURVES]
 ;ID                 X-Value         Y-Value
 ;PUMP:    
- 1006               0               38.00       
- 1006               10              37.00       
- 1006               20              36.00       
- 1006               30              34.00       
- 1006               40              31.00       
- 1006               50              29.00       
- 1006               60              27.00       
- 1006               70              25.00       
+ H3               0               38.00       
+ H3               10              37.00       
+ H3               20              36.00       
+ H3               30              34.00       
+ H3               40              31.00       
+ H3               50              29.00       
+ H3               60              27.00       
+ H3               70              25.00       
 ;PUMP:    
- 1123               0               88.000      
- 1123               2.78            87.000      
- 1123               5.56            84.000      
- 1123               8.53            76.000      
- 1123               11.11           63.000      
- 1123               13.89           47.000      
+ H6               0               88.000      
+ H6               2.78            87.000      
+ H6               5.56            84.000      
+ H6               8.53            76.000      
+ H6               11.11           63.000      
+ H6               13.89           47.000      
 ;PUMP:    
  1641               0               146.000     
  1641               10              145.000     
@@ -2905,34 +2905,34 @@ with this network, or email Kobus van Zyl at kobusvanzyl@mail.com
  1691               45              103         
  1691               50              91          
 ;PUMP:    
- 1881               0               40.00       
- 1881               6.94            38.50       
- 1881               13.88           38.00       
- 1881               20.83           37.50       
- 1881               27.77           36.00       
- 1881               34.72           35.00       
- 1881               41.66           32.50       
- 1881               48.61           30.00       
- 1881               55.55           27.50       
- 1881               111.5           7.50        
+ H4               0               40.00       
+ H4               6.94            38.50       
+ H4               13.88           38.00       
+ H4               20.83           37.50       
+ H4               27.77           36.00       
+ H4               34.72           35.00       
+ H4               41.66           32.50       
+ H4               48.61           30.00       
+ H4               55.55           27.50       
+ H4               111.5           7.50        
 ;PUMP:    
- 1883               0               37.000      
- 1883               1               36.999      
- 1883               2               36.998      
- 1883               3               36.997      
- 1883               4               36.996      
- 1883               5               36.995      
- 1883               6               36.994      
+ H7               0               37.000      
+ H7               1               36.999      
+ H7               2               36.998      
+ H7               3               36.997      
+ H7               4               36.996      
+ H7               5               36.995      
+ H7               6               36.994      
 ;PUMP:    
- 1884               0               122.000     
- 1884               2.22            120.000     
- 1884               2.78            118.000     
- 1884               3.33            115.000     
- 1884               3.89            110.000     
- 1884               4.44            105.000     
- 1884               5               96.000      
- 1884               5.55            85.000      
- 1884               6.11            72.000      
+ H5               0               122.000     
+ H5               2.22            120.000     
+ H5               2.78            118.000     
+ H5               3.33            115.000     
+ H5               3.89            110.000     
+ H5               4.44            105.000     
+ H5               5               96.000      
+ H5               5.55            85.000      
+ H5               6.11            72.000      
 ;PUMP:    
  1948               0               20.00       
  1948               0.4             19.00       
@@ -2941,91 +2941,91 @@ with this network, or email Kobus van Zyl at kobusvanzyl@mail.com
  1948               1.6             11.00       
  1948               2               7.00        
 ;PUMP:    
- 2007               0               129         
- 2007               10              128         
- 2007               15              127         
- 2007               20              126         
- 2007               25              124         
- 2007               30              121         
- 2007               35              116         
- 2007               40              110         
- 2007               45              103         
- 2007               50              91          
+ H1               0               129         
+ H1               10              128         
+ H1               15              127         
+ H1               20              126         
+ H1               25              124         
+ H1               30              121         
+ H1               35              116         
+ H1               40              110         
+ H1               45              103         
+ H1               50              91          
 ;PUMP:    
- 2015               0               129         
- 2015               10              128         
- 2015               15              127         
- 2015               20              126         
- 2015               25              124         
- 2015               30              121         
- 2015               35              116         
- 2015               40              110         
- 2015               45              103         
- 2015               50              91          
+ H2               0               129         
+ H2               10              128         
+ H2               15              127         
+ H2               20              126         
+ H2               25              124         
+ H2               30              121         
+ H2               35              116         
+ H2               40              110         
+ H2               45              103         
+ H2               50              91          
 ;EFFICIENCY:   
- HHEfficiency       0               0           
- HHEfficiency       1.1             0           
- HHEfficiency       1.5             48          
- HHEfficiency       2               57          
- HHEfficiency       2.5             62          
- HHEfficiency       3               67          
- HHEfficiency       3.5             71          
- HHEfficiency       4.5             71          
- HHEfficiency       5               69          
- HHEfficiency       5.5             67          
- HHEfficiency       6               62          
+ E5       0               0           
+ E5       1.1             0           
+ E5       1.5             48          
+ E5       2               57          
+ E5       2.5             62          
+ E5       3               67          
+ E5       3.5             71          
+ E5       4.5             71          
+ E5       5               69          
+ E5       5.5             67          
+ E5       6               62          
 ;EFFICIENCY:   
- CBNEfficiency      0               0           
- CBNEfficiency      20              57          
- CBNEfficiency      25              65          
- CBNEfficiency      30              71          
- CBNEfficiency      35              75          
- CBNEfficiency      40              75          
- CBNEfficiency      45              75          
- CBNEfficiency      50              73          
+ E2      0               0           
+ E2      20              57          
+ E2      25              65          
+ E2      30              71          
+ E2      35              75          
+ E2      40              75          
+ E2      45              75          
+ E2      50              73          
 ;EFFICIENCY:   
- CBOEfficiency      0               0           
- CBOEfficiency      20              57          
- CBOEfficiency      25              65          
- CBOEfficiency      30              71          
- CBOEfficiency      35              75          
- CBOEfficiency      40              75          
- CBOEfficiency      45              72          
- CBOEfficiency      50              70          
+ E1      0               0           
+ E1      20              57          
+ E1      25              65          
+ E1      30              71          
+ E1      35              75          
+ E1      40              75          
+ E1      45              72          
+ E1      50              70          
 ;EFFICIENCY:   
- LZGEfficiency      0               0           
- LZGEfficiency      2.7             32          
- LZGEfficiency      5.5             50          
- LZGEfficiency      8.3             55          
- LZGEfficiency      11.11           58          
- LZGEfficiency      13.8            47          
+ E6      0               0           
+ E6      2.7             32          
+ E6      5.5             50          
+ E6      8.3             55          
+ E6      11.11           58          
+ E6      13.8            47          
 ;EFFICIENCY:   
- LZHZEfficiency     0               0           
- LZHZEfficiency     10              40          
- LZHZEfficiency     20              50          
- LZHZEfficiency     30              61          
- LZHZEfficiency     40              68          
- LZHZEfficiency     50              71          
- LZHZEfficiency     60              72          
- LZHZEfficiency     70              72          
- LZHZEfficiency     80              71          
- LZHZEfficiency     90              68          
- LZHZEfficiency     100             61          
- LZHZEfficiency     110             50          
- LZHZEfficiency     120             40          
+ E4     0               0           
+ E4     10              40          
+ E4     20              50          
+ E4     30              61          
+ E4     40              68          
+ E4     50              71          
+ E4     60              72          
+ E4     70              72          
+ E4     80              71          
+ E4     90              68          
+ E4     100             61          
+ E4     110             50          
+ E4     120             40          
 ;EFFICIENCY:   
- SEfficiency        0               0           
- SEfficiency        1.38            31          
- SEfficiency        2.7             48          
- SEfficiency        4.6             54          
- SEfficiency        5.5             54          
- SEfficiency        6.94            43          
+ E7        0               0           
+ E7        1.38            31          
+ E7        2.7             48          
+ E7        4.6             54          
+ E7        5.5             54          
+ E7        6.94            43          
 ;EFFICIENCY:   
- STEfficiency       0               0           
- STEfficiency       20              34          
- STEfficiency       40              58          
- STEfficiency       60              72          
- STEfficiency       80              77          
+ E3       0               0           
+ E3       20              34          
+ E3       40              58          
+ E3       60              72          
+ E3       80              77          
 ;VOLUME:   
  rc692              0               0           
  rc692              1               35          
@@ -3079,25 +3079,25 @@ LINK v1E CLOSED IF NODE E ABOVE 2.65
  Global Efficiency      75
  Global Price           0
  Demand Charge          0
- Pump   1Ag1                Efficiency  CBOEfficiency
+ Pump   1Ag1                Efficiency  E1
  Pump   1Ag1                Price       1
  Pump   1Ag1                Pattern     CBTariff
- Pump   2Ag1                Efficiency  CBNEfficiency
+ Pump   2Ag1                Efficiency  E2
  Pump   2Ag1                Price       1
  Pump   2Ag1                Pattern     CBTariff
- Pump   3Ag2                Efficiency  STEfficiency
+ Pump   3Ag2                Efficiency  E3
  Pump   3Ag2                Price       1
  Pump   3Ag2                Pattern     STTariff
- Pump   4Bg3                Efficiency  LZHZEfficiency
+ Pump   4Bg3                Efficiency  E4
  Pump   4Bg3                Price       1
  Pump   4Bg3                Pattern     LZHZTariff
- Pump   5Cg4                Efficiency  HHEfficiency
+ Pump   5Cg4                Efficiency  E5
  Pump   5Cg4                Price       1
  Pump   5Cg4                Pattern     HHTariff
- Pump   6Dg5                Efficiency  LZGEfficiency
+ Pump   6Dg5                Efficiency  E6
  Pump   6Dg5                Price       1
  Pump   6Dg5                Pattern     LZGTariff
- Pump   7Fg6                Efficiency  SEfficiency
+ Pump   7Fg6                Efficiency  E7
  Pump   7Fg6                Price       1
  Pump   7Fg6                Pattern     STariff
 
