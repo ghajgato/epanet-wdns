@@ -1833,13 +1833,13 @@ with this network, or email Kobus van Zyl at kobusvanzyl@mail.com
  dummy1                          1787                            739                                   1.0000       1.0000     100.0000       0.0000       
 
 [PUMPS]
- 1A                              2009                            2002                             HEAD 2007
- 2A                              1690                            1693                             HEAD 2015
- 3A                              1005                            186                              HEAD 1006
- 4B                              1250                            353                              HEAD 1881
- 5C                              1648                            636                              HEAD 1884
- 6D                              264                             1125                             HEAD 1123
- 7F                              1815                            749                              HEAD 1883
+ 1Ag1                              2009                            2002                             HEAD 2007
+ 2Ag1                              1690                            1693                             HEAD 2015
+ 3Ag2                              1005                            186                              HEAD 1006
+ 4Bg3                              1250                            353                              HEAD 1881
+ 5Cg4                              1648                            636                              HEAD 1884
+ 6Dg5                              264                             1125                             HEAD 1123
+ 7Fg6                              1815                            749                              HEAD 1883
 
 [VALVES]
  v1708                           1708                            670                                 100.0000   PRV      48.4000       0.0000
@@ -3190,13 +3190,13 @@ with this network, or email Kobus van Zyl at kobusvanzyl@mail.com
 
 [STATUS]
  1646                            closed
- 1A                              closed
- 2A                              closed
- 3A                              closed
- 4B                              closed
- 5C                              closed
- 6D                              closed
- 7F                              closed
+ 1Ag1                              open
+ 2Ag1                              closed
+ 3Ag2                              open
+ 4Bg3                              open
+ 5Cg4                              open
+ 6Dg5                              open
+ 7Fg6                              open
 
 [PATTERNS]
  Fac_1010                              0.5900       0.2000       0.3400       0.3300       0.3800       0.3600
@@ -3478,20 +3478,20 @@ with this network, or email Kobus van Zyl at kobusvanzyl@mail.com
  rc784                                 2.1900      22.0000
 
 [CONTROLS]
- LINK 1A 1.0000 IF NODE A BELOW 2.5275
- LINK 1A 0.0000 IF NODE A ABOVE 3.2689
- LINK 2A 1.0000 IF NODE A BELOW 2.3590
- LINK 2A 0.0000 IF NODE A ABOVE 3.2689
- LINK 3A 1.0000 IF NODE A BELOW 2.5275
- LINK 3A 0.0000 IF NODE A ABOVE 3.2689
- LINK 4B 1.0000 IF NODE B BELOW 2.5550
- LINK 4B 0.0000 IF NODE B ABOVE 3.4675
- LINK 5C 1.0000 IF NODE C BELOW 1.4000
- LINK 5C 0.0000 IF NODE C ABOVE 1.9400
- LINK 6D 1.0000 IF NODE D BELOW 1.4770
- LINK 6D 0.0000 IF NODE D ABOVE 2.0467
- LINK 7F 1.0000 IF NODE F BELOW 1.5330
- LINK 7F 0.0000 IF NODE F ABOVE 1.9710
+ LINK 1Ag1 1.0000 IF NODE A BELOW 2.5275
+ LINK 1Ag1 0.0000 IF NODE A ABOVE 3.2689
+ LINK 2Ag1 1.0000 IF NODE A BELOW 2.3590
+ LINK 2Ag1 0.0000 IF NODE A ABOVE 3.2689
+ LINK 3Ag2 1.0000 IF NODE A BELOW 2.5275
+ LINK 3Ag2 0.0000 IF NODE A ABOVE 3.2689
+ LINK 4Bg3 1.0000 IF NODE B BELOW 2.5550
+ LINK 4Bg3 0.0000 IF NODE B ABOVE 3.4675
+ LINK 5Cg4 1.0000 IF NODE C BELOW 1.4000
+ LINK 5Cg4 0.0000 IF NODE C ABOVE 1.9400
+ LINK 6Dg5 1.0000 IF NODE D BELOW 1.4770
+ LINK 6Dg5 0.0000 IF NODE D ABOVE 2.0467
+ LINK 7Fg6 1.0000 IF NODE F BELOW 1.5330
+ LINK 7Fg6 0.0000 IF NODE F ABOVE 1.9710
  LINK v1E open  IF NODE E BELOW 1.6500
  LINK v1E closed  IF NODE E ABOVE 2.6500
 
@@ -3519,38 +3519,38 @@ with this network, or email Kobus van Zyl at kobusvanzyl@mail.com
 [ENERGY]
  GLOBAL EFFIC        75.0000
  DEMAND CHARGE       0.0000
- PUMP 1A                              PRICE   1.0000
- PUMP 1A                              PATTERN CBTariff
- PUMP 1A                              EFFIC   CBOEfficiency
- PUMP 2A                              PRICE   1.0000
- PUMP 2A                              PATTERN CBTariff
- PUMP 2A                              EFFIC   CBNEfficiency
- PUMP 3A                              PRICE   1.0000
- PUMP 3A                              PATTERN STTariff
- PUMP 3A                              EFFIC   STEfficiency
- PUMP 4B                              PRICE   1.0000
- PUMP 4B                              PATTERN LZHZTariff
- PUMP 4B                              EFFIC   LZHZEfficiency
- PUMP 5C                              PRICE   1.0000
- PUMP 5C                              PATTERN HHTariff
- PUMP 5C                              EFFIC   HHEfficiency
- PUMP 6D                              PRICE   1.0000
- PUMP 6D                              PATTERN LZGTariff
- PUMP 6D                              EFFIC   LZGEfficiency
- PUMP 7F                              PRICE   1.0000
- PUMP 7F                              PATTERN STariff
- PUMP 7F                              EFFIC   SEfficiency
+ PUMP 1Ag1                              PRICE   1.0000
+ PUMP 1Ag1                              PATTERN CBTariff
+ PUMP 1Ag1                              EFFIC   CBOEfficiency
+ PUMP 2Ag1                              PRICE   1.0000
+ PUMP 2Ag1                              PATTERN CBTariff
+ PUMP 2Ag1                              EFFIC   CBNEfficiency
+ PUMP 3Ag2                              PRICE   1.0000
+ PUMP 3Ag2                              PATTERN STTariff
+ PUMP 3Ag2                              EFFIC   STEfficiency
+ PUMP 4Bg3                              PRICE   1.0000
+ PUMP 4Bg3                              PATTERN LZHZTariff
+ PUMP 4Bg3                              EFFIC   LZHZEfficiency
+ PUMP 5Cg4                              PRICE   1.0000
+ PUMP 5Cg4                              PATTERN HHTariff
+ PUMP 5Cg4                              EFFIC   HHEfficiency
+ PUMP 6Dg5                              PRICE   1.0000
+ PUMP 6Dg5                              PATTERN LZGTariff
+ PUMP 6Dg5                              EFFIC   LZGEfficiency
+ PUMP 7Fg6                              PRICE   1.0000
+ PUMP 7Fg6                              PATTERN STariff
+ PUMP 7Fg6                              EFFIC   SEfficiency
 
 [TIMES]
- DURATION            24:00:00
- HYDRAULIC TIMESTEP  1:00:00
- QUALITY TIMESTEP    0:05:00
- REPORT TIMESTEP     1:00:00
+ DURATION            00:00:00
+ HYDRAULIC TIMESTEP  0:00:00
+ QUALITY TIMESTEP    0:00:00
+ REPORT TIMESTEP     0:00:00
  REPORT START        0:00:00
- PATTERN TIMESTEP    1:00:00
+ PATTERN TIMESTEP    0:00:00
  PATTERN START       0:00:00
- RULE TIMESTEP       0:06:00
- START CLOCKTIME     7:00:00
+ RULE TIMESTEP       0:00:00
+ START CLOCKTIME     8:00:00
  STATISTIC           NONE
 
 [OPTIONS]
@@ -4472,7 +4472,7 @@ with this network, or email Kobus van Zyl at kobusvanzyl@mail.com
 
 [VERTICES]
 ;Link            	X-Coord         	Y-Coord
- 1A              	422356160.00    	499938176.00    
+ 1Ag1              	422356160.00    	499938176.00    
 
 [LABELS]
 ;X-Coord           Y-Coord          Label & Anchor Node
