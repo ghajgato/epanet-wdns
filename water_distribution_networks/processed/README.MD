@@ -5,6 +5,12 @@
 - Fictional effciency curves added to the pumps
 - Control logic removed
 
+## C-Town
+- Pumps arranged into groups
+- Pumps are operating by default
+- New pump performance curves added with efficiency
+- Control logic deactivated
+
 ## Richmond_standard
 - Pumps arranged into groups
 - Pumps are operating by default
@@ -12,8 +18,6 @@
 - Efficiency renamed to rl-wds convention (E#)
 - Control logic deactivated
 
-## C-Town
-- Pumps arranged into groups
-- Pumps are operating by default
-- New pump performance curves added with efficiency
-- Control logic deactivated
+## Rome
+- Pumps with fictional performance curves added
+- **inoperable**
