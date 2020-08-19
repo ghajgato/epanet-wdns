@@ -18,6 +18,7 @@
 - Efficiency renamed to rl-wds convention (E#)
 - Control logic deactivated
 - Nodal consumption at node 1925 (Coalsgarth) changed from -1 to 0
+- Pumps switched off: {3Ag2, 7Fg6}
 
 ## Rome
 - Pumps with fictional performance curves added

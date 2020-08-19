@@ -1840,11 +1840,11 @@ with this network, or email Kobus van Zyl at kobusvanzyl@mail.com
 ;ID              	Node1           	Node2           	Parameters
  1Ag1            	2009            	2002            	HEAD H1	;
  2Ag1            	1690            	1693            	HEAD H2	;
- 3Ag2            	1005            	186             	HEAD H3	;
+ ;3Ag2            	1005            	186             	HEAD H3	;
  4Bg3            	1250            	353             	HEAD H4	;
  5Cg4            	1648            	636             	HEAD H5	;
  6Dg5            	264             	1125            	HEAD H6	;
- 7Fg6            	1815            	749             	HEAD H7	;
+ ;7Fg6            	1815            	749             	HEAD H7	;
 
 [VALVES]
 ;ID              	Node1           	Node2           	Diameter    	Type	Setting     	MinorLoss   
@@ -3081,9 +3081,9 @@ with this network, or email Kobus van Zyl at kobusvanzyl@mail.com
  Pump 	2Ag1            	Efficiency	E2
  Pump 	2Ag1            	Price     	1
  Pump 	2Ag1            	Pattern   	CBTariff
- Pump 	3Ag2            	Efficiency	E3
- Pump 	3Ag2            	Price     	1
- Pump 	3Ag2            	Pattern   	STTariff
+; Pump 	3Ag2            	Efficiency	E3
+; Pump 	3Ag2            	Price     	1
+; Pump 	3Ag2            	Pattern   	STTariff
  Pump 	4Bg3            	Efficiency	E4
  Pump 	4Bg3            	Price     	1
  Pump 	4Bg3            	Pattern   	LZHZTariff
@@ -3093,9 +3093,9 @@ with this network, or email Kobus van Zyl at kobusvanzyl@mail.com
  Pump 	6Dg5            	Efficiency	E6
  Pump 	6Dg5            	Price     	1
  Pump 	6Dg5            	Pattern   	LZGTariff
- Pump 	7Fg6            	Efficiency	E7
- Pump 	7Fg6            	Price     	1
- Pump 	7Fg6            	Pattern   	STariff
+; Pump 	7Fg6            	Efficiency	E7
+; Pump 	7Fg6            	Price     	1
+; Pump 	7Fg6            	Pattern   	STariff
 
 [EMITTERS]
 ;Junction        	Coefficient
